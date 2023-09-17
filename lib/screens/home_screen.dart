@@ -154,7 +154,7 @@ class _LightHomeScreenState extends State<LightHomeScreen> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
+      bottomNavigationBar: BottomNavigationBar(unselectedItemColor: Colors.red,fixedColor: Colors.redAccent,
         items: [
           BottomNavigationBarItem(
             icon: IconButton(
